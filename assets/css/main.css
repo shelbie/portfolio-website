@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+/* @import url(fontawesome-all.min.css); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
 
 /*
@@ -2763,7 +2763,16 @@ input, select, textarea {
 			background-size: 128px 128px, auto;
 			background-color: #323459;
 		}
+		
+		li i {
+			padding: 5%;
+			font-size: 2rem;
+		}
 
+		.skills-icon {
+			list-style: none;
+			padding: 5%;
+		}
 	@media screen and (max-width: 736px) {
 
 		.panel {
